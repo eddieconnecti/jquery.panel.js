@@ -14,7 +14,18 @@ Include the script *after* the jQuery library
 Initialize the plugin and put the code inside the jQuery document.ready callback like here:
 
 ```html
+<!-- Simple Panel without data- Attributes; Configuration is set in Javascript -->
 <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">My Panel</h3>
+  </div>
+  <div class="panel-body">
+    My Panel content
+  </div>
+</div>
+
+<!-- Panel using data- Attributes for individual configuration -->
+<div class="panel panel-default" data-url="/user/profile?id=0815" data-collapsible="true" data-collapsed="false" data-autorefresh="10">
   <div class="panel-heading">
     <h3 class="panel-title">My Panel</h3>
   </div>
