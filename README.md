@@ -74,6 +74,11 @@ An url to load HTML contents via XHR.
 
 Interval in seconds to reload content via given <code>url</code>.
 
+## Requires
+
+- [Bootstrap 3](http://getbootstrap.com/)
+- [jQuery 1.11.2](https://jquery.com/)
+
 ## Authors
 
 [K. Feldmaier](https://github.com/eddieconnecti)
