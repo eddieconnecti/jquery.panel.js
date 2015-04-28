@@ -52,7 +52,11 @@ $(function(){
 
 ## Panel Configuration
 
-To configure an environment for usage in your application, the following options can be used:
+Two ways to configure jquery.panel.js:
+- Passing Configuration Parameters in Javascript
+- Adding data- Attributes to the Panel Element
+
+Decide, how you want to integrate the Panel: If all Panels on one page share the same configuration, use Javascript. If you have multiple Panels with different options, use the HTML Initialisation. You can also use a Mix of both, ie. it could make sense to only define the url per data- Attribute and setup all the other parameters in Javascript. 
 
 ### collapsible
 
